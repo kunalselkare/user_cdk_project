@@ -2,7 +2,7 @@
   "name": "user_stack",
   "version": "0.1.0",
   "bin": {
-    "user_data_stack": "bin/user_data_=stack.js"
+    "user_stack": "bin/user_stack.js"
   },
   "scripts": {
     "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
@@ -21,7 +21,7 @@
     "@aws-cdk/aws-iam": "^1.203.0",
     "@aws-cdk/aws-lambda": "^1.203.0",
     "@aws-cdk/aws-ses": "^1.203.0",
-    "aws-cdk-lib": "^2.174.0",
-    "constructs": "^10.4.2"
+    "aws-cdk-lib": "2.174.0",
+    "constructs": "^10.0.0"
   }
 }
